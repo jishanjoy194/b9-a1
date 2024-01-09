@@ -120,7 +120,7 @@ header{
 }
 
 .form{
-    background-color: rgb(235, 221, 223);
+    background-image: linear-gradient(to bottom,rgb(244,208,214),white);
     width: 1320px;
     height: 482px;
     margin: 0 auto;
@@ -157,9 +157,8 @@ header{
 .portfolio{
     background-color: #FFF;
     width: 1600px;
-    margin-left: 170px;
-    margin-top: 80px;
-    margin-bottom: 120px;
+    margin: 165px;
+    align-items: center;
 }
 .gifts h1{
     color: #F00;
@@ -266,8 +265,55 @@ header{
     padding: 24px 56px;
 }
 .subscribe .subs-btn:hover{
-    background: rgb(174, 163, 163);
+    background:rgb(184, 64, 64);
 }
-
+.foot-container{
+    background-color: #070211;
+    padding: 120px 140px;
+    width: 1600px;
+    height: 609px;
+    margin-top: 120px;
+}
+.info{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.info .address{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+.info .contact{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.info .contact div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-media{
+    text-align: center;
+    width: 100%;
+    max-width: 1600px;
+    color: white;
+}
+.social-media .icons{
+    padding: 48px 0;
+}
+.social-media .icons img{
+    cursor: pointer;
+}
+.social-media .icons img:hover{
+    border: 2px #FFF solid;
+    border-radius: 50%;
+}
 
 
