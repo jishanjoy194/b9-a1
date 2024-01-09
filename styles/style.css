@@ -273,32 +273,38 @@ header{
     padding: 120px 140px;
     width: 1600px;
     height: 609px;
-    margin-top: 120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 100px auto;
 }
 .info{
     display: flex;
-    margin-bottom: 50px;
     justify-content: space-between;
     align-items: center;
 }
-.info .address{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 40px; /* 166.667% */
+.address{
+    margin: 120px 140px;
+    margin-bottom: 50px;
 }
-.info .contact{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 40px;
+.contact{
+    margin-left: 540px;
 }
-.info .contact div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.mobile{
+    margin-top: 120px;
+    margin-bottom: 5px;
+}
+.web-link{
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+hr{
+    width: 1320px;
+    height: 1px;
+}
+hr:hover{
+    color: rgb(93, 149, 172);
 }
 .social-media{
     text-align: center;
@@ -306,15 +312,27 @@ header{
     max-width: 1600px;
     color: white;
 }
-.social-media .icons{
+.icons{
     padding: 48px 0;
 }
-.social-media .icons img{
+.icons img{
     cursor: pointer;
 }
 .social-media .icons img:hover{
     border: 2px #FFF solid;
     border-radius: 50%;
+}
+.copyright-claim{
+    display: flex;
+    justify-content: space-between;
+}
+.copy-right{
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.unsubscribe{
+    margin-top: 50px;
+    margin-right: 140px;
 }
 
 
