@@ -254,6 +254,7 @@ header{
     background: #F00;
     height: 72px;
     width: 210px;
+    border: none;
 }
 .btn-txt{
     color: #FFF;
