@@ -72,11 +72,11 @@ header{
     width: 1320px;
     height: 600px;
     margin: 0 auto; 
-    display: flex;
 }
 .banner-content{
     padding: 56px 552px 298px 126px;
     width: 100%;
+    display: flex;
 }
 .banner-greeting{
     color: #FFF;
@@ -157,9 +157,9 @@ header{
 .portfolio{
     background-color: #FFF;
     width: 1600px;
-    height: 7335px;
     margin-left: 170px;
     margin-top: 80px;
+    margin-bottom: 120px;
 }
 .gifts h1{
     color: #F00;
